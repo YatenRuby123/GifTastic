@@ -6,12 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- link to BootStrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
     <div class="container">
         <div class="jumbotron">
+            <!-- Creating Button on Html -->
             <div id="aniBtn">
                 <button type="button" class="btn btn-info animal" data-name="Dog">Dog</button>
                 <button type="button" class="btn btn-info animal" data-name="Cat">Cat</button>
@@ -28,6 +30,7 @@
         </div>
         <div class="container">
             <div class="left">
+                <!-- Creating Div so that, values from ApIs are stored in this div -->
                 <div id='gifs'></div>
             </div>
 
@@ -37,6 +40,7 @@
                 <form id="gifyForm">
                     <label for="gif-input"></label>
                     <input type="text" value="" id="gif-input"><br><br>
+                    <!-- creating button to submit value from text box -->
                     <input type="submit" name="Button" id="theBtn" class="btn btn-info">
                 </form>
             </div>

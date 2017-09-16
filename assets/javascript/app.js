@@ -57,7 +57,9 @@ $(document).ready(function() {
             .done(function(response) {
                 var results = response.data;
                 for (var i = 0; i < results.length; i++) {
+                    // creates Div element
                     var animalDiv = $('<div/>');
+                    //creates P element 
                     var p = $('<p/>');
                     p.text(results[i].rating);
                     var animalImage = $('<img/>');
